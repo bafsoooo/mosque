@@ -2,7 +2,7 @@
 
 $dimention : ("lg": 1200px, "md" : 970px, "xs" : 676px);
 @mixin breakPoint-up($media){
-    @media(min-width: map-get($dimention , $media)){
+    @media(max-width: map-get($dimention , $media)){
         @content
     }
 }
