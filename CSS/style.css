@@ -1,3 +1,9 @@
+/*start variables*/
+:root {
+  --dark-blue-color:#2B394C;
+  --light-green-color:#1EE9C5;
+}
+/*end variables*/
 /*start global ruls */
 body {
   padding: 0px;
