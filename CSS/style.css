@@ -1,10 +1,5 @@
-/*start variables*/
-:root {
-  --dark-blue-color:#2B394C;
-  --light-green-color:#1EE9C5;
-}
-/*end variables*/
-/*start global ruls */
+
+/*start global rules */
 body {
   padding: 0px;
   margin: 0px;
@@ -53,4 +48,4 @@ p {
   padding: 0 200px;
 }
 
-/*end global ruls */
+/*end global rules */
