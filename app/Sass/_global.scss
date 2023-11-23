@@ -1,0 +1,37 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+a, a:hover, a:visited{
+    text-decoration: none;
+}
+h1, h2, h3{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+p{
+    line-height: 1.5;;
+    margin-bottom: 2.25rem;
+}
+.container{
+    padding: 0 200px;
+    &--all{
+        padding: 100px 200px;
+        @include breakPoint-up("xs"){
+            padding: 0px 50px;
+        }
+    }
+    &--py{
+        padding: 200px 0px ; 
+    }
+    &--px{
+        padding: 0 200px;
+    }
+}
