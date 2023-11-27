@@ -71,7 +71,7 @@ p {
     position: relative;
 }
 #header .container img {
-    width: 20%;
+    width: 130px;
 }
 #header .container .links {
     display: flex;
@@ -127,7 +127,7 @@ p {
 }
 #landing .container {
     
-    min-height: calc(45vh - 72px);
+    min-height: calc(35vh - 72px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,19 +135,21 @@ p {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-#landing .container h2 , #landing .container p {
-    color: white;
+#landing .container .content {
+    background-color: #1c232caf;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
 }
 #landing .container h2 {
     font-size: 2.2rem;
     font-weight: 600;
-    margin-bottom: 100px;
-    color: black;
+    margin-bottom: 80px;
+    color: white
 }
 #landing .container p {
     font-size: 1.5rem;
     font-weight: 300; 
-    color: black;  
+    color: whitesmoke 
 }
 /* end landing rules */
